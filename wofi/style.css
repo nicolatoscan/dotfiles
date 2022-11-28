@@ -1,0 +1,56 @@
+@define-color col-background #222;
+@define-color col-border #FFAD6B;
+@define-color col-focus #111;
+@define-color col-text #CCC;
+
+
+window {
+    margin: 0px;
+    background-color: @col-background;
+    border-radius: 5px;
+    border: 2px solid @col-border;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #FFFFFF;
+    background-color: @col-focus;
+    border-radius: 5px;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: @col-background;
+    border-radius: 5px;
+}
+
+#outer-box {
+    margin: 15px;
+    border: none;
+    background-color: @col-background;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: @col-text;
+} 
+
+#entry:selected {
+    background-color: #321;
+    border-radius: 3px;
+    outline: none;
+}
+
+#entry:selected * {
+    background-color: @col-focus;
+    border-radius: 3px;
+    outline: none;
+}
