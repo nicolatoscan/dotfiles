@@ -1,0 +1,13 @@
+swaylock \
+	--image /home/toscan/Pictures/wall.jpg \
+	--clock \
+	--indicator \
+	--indicator-radius 100 \
+	--indicator-thickness 7 \
+	--effect-vignette 0.5:0.5 \
+	--ring-color FFAD6B \
+	--key-hl-color 595959 \
+    --line-ver-color a6e3a1 \
+    --ring-ver-color a6e3a1 \
+    --inside-ver-color a6e3a1 \
+	--fade-in 0.3
